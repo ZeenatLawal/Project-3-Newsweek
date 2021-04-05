@@ -11,16 +11,21 @@
 </head>
 <body>
     <header class="pt-5">
-        <nav class="bg-danger">
-            <time datetime="2021-01-20">Wed, Jan 20, 2021</time>
-            <a href="#"><img alt="logo" class="img-fluid" id="logo1" src="image/newsweek-logo-white.png"></a>
+        <nav class="bg-danger d-flex justify-content-between">
             <div>
-                <a href="#" class="">Login</a>
+                <time datetime="2021-01-20" class="d-none d-lg-inline-flex d-xl-none">Wed, Jan 20, 2021</time>
+            </div>
+           <div>
+                <a href="#"><img alt="logo" class="img-fluid" id="logo1" src="image/newsweek-logo-white.png"></a>
+            </div>
+            <div class="d-flex justify-content-around">
+                <a href="#" class="d-none d-lg-inline-flex d-xl-none">Login</a>
                 <i class="far fa-user"></i>
-                <button type="button" class="btn btn-warning rounded-pill">Subscribe ></button>
+                <button id="subscribe" type="button" class="btn btn-warning rounded-pill btn-sm">Subscribe ></button>
+                <i class="fas fa-bars"></i>
             </div>
         </nav>
-        <nav class="nav d-none d-lg-block d-xl-none">
+        <nav class="nav d-none d-lg-inline-flex d-xl-none">
             <a class="nav-link border-end" href="#">U.S.</a>
             <a class="nav-link" href="#">World</a>
             <a class="nav-link" href="#">Business</a>
@@ -34,7 +39,7 @@
             <a class="nav-link" href="#">Vantage</a>
             <a class="nav-link disabled" href="#">Search <i class="fas fa-search"></i></a>
           </nav>
-          <nav class="nav d-none d-lg-block d-xl-none">
+          <nav class="nav d-none d-lg-inline-flex d-xl-none">
             <a class="nav-link"  href="#">TRENDING</a>
             <a class="nav-link" href="#">JOE BIDEN</a>
             <a class="nav-link" href="#">DONULD TRUMP</a>
