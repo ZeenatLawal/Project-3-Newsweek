@@ -10,6 +10,16 @@
   font-size: 18px;
 }
 
+@media screen and (min-width: 762px) {
+  #logo2 {
+    max-width: 100%;
+  }
+  #linklogo {
+    width: 15%;
+    margin-right: 10px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   #logo1 {
     margin: 5px 270px;
