@@ -5,3 +5,13 @@
 #logo1 {
   max-width: 35%;
 }
+
+.font-size {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 992px) {
+  #logo1 {
+    margin: 5px 270px;
+  }
+}
