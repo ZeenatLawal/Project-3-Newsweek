@@ -99,15 +99,14 @@ footer .fab:hover {
 
 .logon {
   flex: none;
- display: block;
- width: 29px;
- height: 28px;
- background: #f72210 url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg") no-repeat center/contain;
- margin: auto 10px;
-
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: #f72210 url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg") no-repeat center/contain;
+  margin: auto 10px;
 }
 
-@media screen and (min-width: 762px) {
+@media screen and (min-width: 768px) {
   .logo2 {
     max-width: 100%;
   }
@@ -119,6 +118,14 @@ footer .fab:hover {
   #linklogo {
     width: 15%;
     margin-right: 10px;
+  }
+
+  .bg-light3 {
+    display: none;
+  }
+
+  .font-medium h5 {
+    font-size: 14px;
   }
 }
 
