@@ -120,10 +120,6 @@ footer .fab:hover {
     margin-right: 10px;
   }
 
-  .bg-light3 {
-    display: none;
-  }
-
   .font-medium h5 {
     font-size: 14px;
   }
@@ -146,11 +142,15 @@ footer .fab:hover {
   .signup {
     width: 90%;
   }
-  
 }
 
 @media screen and (min-width: 992px) {
   .logo1 {
     margin: 5px 250px;
+  }
+
+  .topwidth {
+    width: 100%;
+    height: 230px;
   }
 }
