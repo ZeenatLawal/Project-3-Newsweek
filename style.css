@@ -3,8 +3,8 @@
 }
 
 .gray {
-  background-color: rgba(211, 211, 211,0.2);
-  border-top-color: rgba(211, 211, 211,0.9);
+  background-color: rgba(211, 211, 211, 0.2);
+  border-top-color: rgba(211, 211, 211, 0.9);
   border-top-width: thin;
   border-top-style: solid;
 }
@@ -53,6 +53,21 @@ footer .fab:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+.bg-light2 {
+  color: #3581f4;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-light3 {
+  color: black;
+  background-color: #c2d4d7;
+}
+
+.width {
+  width: 120px;
+  height: 140px;
+}
+
 .vs {
   position: absolute;
   left: 45%;
@@ -71,7 +86,6 @@ footer .fab:hover {
 .vs-line {
   height: 1px;
   background-color: #d9d9d9;
-
 }
 
 @media screen and (min-width: 762px) {
