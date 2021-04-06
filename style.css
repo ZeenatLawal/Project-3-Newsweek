@@ -88,6 +88,25 @@ footer .fab:hover {
   background-color: #d9d9d9;
 }
 
+.signup {
+  width: 60%;
+}
+
+.signup input {
+  width: 95%;
+  margin: 0 10px;
+}
+
+.logon {
+  flex: none;
+ display: block;
+ width: 29px;
+ height: 28px;
+ background: #f72210 url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg") no-repeat center/contain;
+ margin: auto 10px;
+
+}
+
 @media screen and (min-width: 762px) {
   .logo2 {
     max-width: 100%;
