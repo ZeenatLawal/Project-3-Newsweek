@@ -2,6 +2,10 @@
   max-width: 20%;
 }
 
+.gray {
+  background-color: lightgray;
+}
+
 .first-header {
   background-color: rgb(246, 22, 2);
 }
@@ -39,6 +43,11 @@ footer .fab:hover {
 
 .font-size {
   font-size: 18px;
+}
+
+.bg-light1 {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media screen and (min-width: 762px) {
