@@ -3,7 +3,10 @@
 }
 
 .gray {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211,0.2);
+  border-top-color: rgba(211, 211, 211,0.9);
+  border-top-width: thin;
+  border-top-style: solid;
 }
 
 .first-header {
@@ -48,6 +51,27 @@ footer .fab:hover {
 .bg-light1 {
   color: #f72210;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.vs {
+  position: absolute;
+  left: 45%;
+  right: 45%;
+  bottom: -16px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.vs-line {
+  height: 1px;
+  background-color: #d9d9d9;
+
 }
 
 @media screen and (min-width: 762px) {
