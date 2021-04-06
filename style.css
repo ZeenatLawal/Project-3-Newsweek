@@ -127,6 +127,26 @@ footer .fab:hover {
   .font-medium h5 {
     font-size: 14px;
   }
+
+  .width {
+    width: 100px;
+    height: 100px;
+  }
+
+  .topwidth {
+    width: 95%;
+    height: 230px;
+  }
+
+  .mdinsights {
+    width: 50%;
+    margin: auto;
+  }
+
+  .signup {
+    width: 90%;
+  }
+  
 }
 
 @media screen and (min-width: 992px) {
