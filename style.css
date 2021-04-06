@@ -102,7 +102,8 @@ footer .fab:hover {
   display: block;
   width: 29px;
   height: 28px;
-  background: #f72210
+  background:
+    #f72210
     url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
     no-repeat center/contain;
   margin: auto 10px;
