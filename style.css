@@ -1,8 +1,34 @@
-#logo2 {
+.logo2 {
   max-width: 20%;
 }
 
-#logo1 {
+.first-header {
+  background-color: rgb(246, 22, 2);
+}
+
+.Search {
+  outline: none;
+  width: 60px;
+}
+
+.link-dark:hover,
+header .link-secondary:hover {
+  color: rgb(246, 22, 2);
+}
+
+footer .link-secondary:hover {
+  color: black;
+}
+
+footer .fab {
+  font-size: 25px;
+}
+
+footer .fab:hover {
+  color: rgb(64, 93, 230);
+}
+
+.logo1 {
   width: 100%;
   padding-right: 5px;
 }
@@ -16,11 +42,11 @@
 }
 
 @media screen and (min-width: 762px) {
-  #logo2 {
+  .logo2 {
     max-width: 100%;
   }
 
-  #logo1 {
+  .logo1 {
     width: 50%;
   }
 
@@ -31,7 +57,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  #logo1 {
+  .logo1 {
     margin: 5px 250px;
   }
 }

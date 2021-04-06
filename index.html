@@ -11,12 +11,12 @@
 </head>
 <body class="mx-2">
     <header class="pt-5 mb-5">
-        <nav class="bg-danger d-flex justify-content-between align-items-center p-3">
+        <nav class="d-flex justify-content-between align-items-center p-3 first-header">
             <div class="d-none d-lg-inline-flex text-white p-3">
                 <p class="d-lg-inline text-nowrap align-self-baseline pt-3">Wed, Jan 20, 2021</p>
             </div>
            <div>
-                <a href="#" id="linklogo1"><img alt="logo" class="img-fluid" id="logo1" src="image/newsweek-logo-white.png"></a>
+                <a href="#" id="linklogo1"><img alt="logo" class="img-fluid logo1" src="image/newsweek-logo-white.png"></a>
             </div>
             <div class="d-flex justify-content-around align-items-center gap-3">
                 <a href="#" class="d-none d-md-inline-flex text-white text-decoration-none text-uppercase">Login</a>
@@ -37,10 +37,15 @@
             <a class="nav-link border-end link-dark fw-bold text-decoration-none" href="#">The Debate</a>
             <a class="nav-link border-end link-dark fw-bold text-decoration-none" href="#">Experts</a>
             <a class="nav-link link-dark fw-bold text-decoration-none" href="#">Vantage</a>
-            <a class="nav-link disabled" href="#">Search <i class="fas fa-search"></i></a>
+            <form action="#">
+                <div class="mt-2">
+                    <input type="search" name="Search" class="Search border-0" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+            </form>
           </nav>
           <nav class="nav d-none d-lg-inline-flex ">
-            <a class="nav-link link-dark fw-bold text-decoration-none"  href="#">TRENDING</a>
+            <a class="nav-link text-dark fw-bold text-decoration-none" href="#">TRENDING</a>
             <a class="nav-link link-secondary fw-bold text-decoration-none" href="#">JOE BIDEN</a>
             <a class="nav-link link-secondary fw-bold text-decoration-none" href="#">DONULD TRUMP</a>
             <a class="nav-link link-secondary fw-bold text-decoration-none" href="#">INAUGURATION</a>
@@ -53,15 +58,15 @@
     <footer class="mt-3 mx-2 py-3 border-top border-2">
       <div class="mb-3 d-flex flex-column flex-sm-column flex-md-row align-items-md-center justify-content-between ">
             <div class="d-flex flex-column flex-md-row flex-sm-column align-items-md-center">
-                <a id="linklogo" href="#"><img id="logo2" alt="logo" class="img-fluid" src="image/newsweeklogo.png"></a>
+                <a id="linklogo" href="#"><img alt="logo" class="img-fluid logo2" src="image/newsweeklogo.png"></a>
                <span class=" text-nowrap">© 2021 NEWSWEEK DIGITAL LLC</span>
             </div>
             <div class="d-flex  flex-md-row align-items-md-center justify-content-start" >
-                <a href="#"><i class="me-1 fab fa-instagram link-dark"></i></a>
-                <a href="#"><i class="m-1 fab fa-twitter link-dark"></i></a>
-                <a href="#"><i class="m-1 fab fa-facebook link-dark"></i></a>
-                <a href="#"><i class="m-1 fab fa-linkedin link-dark"></i></a>
-                <a href="#"><i class="m-1 fab fa-tumblr link-dark"></i></a>
+                <a href="#"><i class="me-1 fab fa-instagram link-secondary"></i></a>
+                <a href="#"><i class="m-1 fab fa-twitter link-secondary"></i></a>
+                <a href="#"><i class="m-1 fab fa-facebook link-secondary"></i></a>
+                <a href="#"><i class="m-1 fab fa-linkedin link-secondary"></i></a>
+                <a href="#"><i class="m-1 fab fa-tumblr link-secondary"></i></a>
             </div>
         </div>
         <div class="border-top border-2">
