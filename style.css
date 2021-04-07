@@ -13,6 +13,10 @@
   background-color: rgb(246, 22, 2);
 }
 
+.otext {
+  color: rgb(246, 22, 2);
+}
+
 .Search {
   outline: none;
   width: 60px;
@@ -48,6 +52,10 @@ footer .fab:hover {
   font-size: 18px;
 }
 
+.sm-font {
+  font-size: 12px;
+}
+
 .bg-light1 {
   color: #f72210;
   background-color: rgba(255, 255, 255, 0.9);
@@ -66,6 +74,11 @@ footer .fab:hover {
 .width {
   width: 120px;
   height: 140px;
+}
+
+.swidth {
+  width: 110px;
+  height: 120px;
 }
 
 .vs {
@@ -102,8 +115,7 @@ footer .fab:hover {
   display: block;
   width: 29px;
   height: 28px;
-  background:
-    #f72210
+  background: #f72210
     url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
     no-repeat center/contain;
   margin: auto 10px;
