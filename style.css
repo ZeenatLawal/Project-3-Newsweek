@@ -202,6 +202,16 @@ footer .fab:hover {
     margin-bottom: 10px;
     width: 100%;
   }
+
+  .swidth {
+    width: 90px;
+    height: 90px;
+  }
+
+  .phone {
+    width: 50%;
+    height: 165.5px;
+  }
 }
 
 @media screen and (min-width: 992px) {
