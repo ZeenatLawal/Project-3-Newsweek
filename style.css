@@ -13,15 +13,12 @@
   background-color: rgb(246, 22, 2);
 }
 
-.otext {
-  color: rgb(246, 22, 2);
-}
-
 .Search {
   outline: none;
   width: 60px;
 }
 
+.otext,
 .link-dark:hover,
 header .link-secondary:hover {
   color: rgb(246, 22, 2);
@@ -89,9 +86,14 @@ footer .fab:hover {
   height: 140px;
 }
 
+.img-width {
+  width: 100%;
+  height: auto;
+}
+
 .swidth {
-  width: 110px;
-  height: 120px;
+  width: 130px;
+  height: 160px;
 }
 
 .vs {
@@ -128,10 +130,53 @@ footer .fab:hover {
   display: block;
   width: 29px;
   height: 28px;
-  background: #f72210
+  background:
+    #f72210
     url("https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg")
     no-repeat center/contain;
   margin: auto 10px;
+}
+
+.email2 {
+  width: 45%;
+  height: 38px;
+}
+
+.emaildiv {
+  width: 100%;
+}
+
+.subimage1 {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.subimage2 {
+  top: 15px;
+  left: 85px;
+  z-index: 2;
+}
+
+.subdiv {
+  width: 100%;
+  height: 365px;
+  padding-top: 10px;
+}
+
+/* .subdiv1 {
+  margin: 20px 10%;
+} */
+
+.subdiv2 {
+  z-index: 3;
+
+  /* padding: 45% 50px 0 50px; */
+  font-size: 13px;
+}
+
+.subdiv2 h5 {
+  font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {
