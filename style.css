@@ -163,6 +163,14 @@ footer .fab:hover {
   width: 300px;
 }
 
+.sub-button {
+  transition: height 1s;
+}
+
+.sub-button:hover {
+  height: 50px;
+}
+
 @media screen and (min-width: 768px) {
   .logo2 {
     max-width: 100%;
