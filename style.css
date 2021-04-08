@@ -18,6 +18,10 @@
   width: 60px;
 }
 
+.link-dark {
+  transition: color 0.5s ease-in;
+}
+
 .otext,
 .link-dark:hover,
 header .link-secondary:hover,
