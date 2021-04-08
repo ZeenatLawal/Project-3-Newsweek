@@ -41,9 +41,19 @@ footer .fab:hover {
   color: rgb(64, 93, 230);
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .logo1 {
   width: 100%;
   padding-right: 5px;
+  animation: rotate ease-in 1s 1;
 }
 
 #linklogo1 {
