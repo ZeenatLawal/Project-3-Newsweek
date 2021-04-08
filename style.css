@@ -90,11 +90,13 @@ footer .fab:hover {
 .img-width {
   width: 100%;
   height: auto;
+  transition: width 1s;
 }
 
 .swidth {
   width: 130px;
   height: 160px;
+  transition: width 1s;
 }
 
 .vs {
@@ -154,6 +156,11 @@ footer .fab:hover {
 
 .subdiv2 {
   width: 250px;
+}
+
+.img-width:hover,
+.swidth:hover {
+  width: 300px;
 }
 
 @media screen and (min-width: 768px) {
