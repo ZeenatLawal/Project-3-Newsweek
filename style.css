@@ -169,6 +169,17 @@ footer .fab:hover {
 
 .sub-button:hover {
   height: 50px;
+  animation: ham-menu ease-in 1s 1;
+}
+
+@keyframes ham-menu {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (min-width: 768px) {
